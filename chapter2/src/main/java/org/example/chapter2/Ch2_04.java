@@ -1,3 +1,5 @@
+package org.example.chapter2;
+
 import io.reactivex.rxjava3.core.Observable;
 
 public class Ch2_04 {

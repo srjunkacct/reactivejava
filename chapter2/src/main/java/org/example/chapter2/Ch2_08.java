@@ -1,3 +1,5 @@
+package org.example.chapter2;
+
 import io.reactivex.rxjava3.core.Observable;
 import io.reactivex.rxjava3.functions.Action;
 import io.reactivex.rxjava3.functions.Consumer;

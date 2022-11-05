@@ -1,8 +1,13 @@
+package org.example.chapter2;
+
 import io.reactivex.rxjava3.core.Observable;
 
-public class Ch2_05 {
+import java.util.List;
+
+public class Ch2_06 {
     public static void main(String[] args) {
-        Observable<String> source = Observable.just("Alpha","Beta","Gamma");
+        List<String> sourceList = List.of("Alpha", "Beta", "Gamma");
+        Observable<String> source = Observable.fromIterable(sourceList);
         source.map(String::length)
                 .filter(i -> i >= 5)
                 .subscribe(s -> System.out.println("Received: " + s));
