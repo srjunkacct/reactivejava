@@ -16,6 +16,12 @@
             <artifactId>javafx-graphics</artifactId>
             <version>19</version>
         </dependency>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>util</artifactId>
+            <version>${project.version}</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <properties>
